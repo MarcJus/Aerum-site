@@ -1,6 +1,25 @@
+body
+{
+    background-color: rgb(37, 36, 36);
+    color: gray;
+}
+header
+{
+    background-color: rgb(156, 50, 255);
+    height:100px;
+}
 h1
 {
-    font-size: 40px;
+    font-size: 50px;
+}
+.logo_aerum
+{
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}a:active
+{
+    color:green;
 }
 .titre{
     color:purple;
@@ -8,13 +27,27 @@ h1
 }
 .description
 {
-    color: blue;
     font-family: Impact;
     text-align: center;
 }
 .obligatoire{
     font-size: 1.2em;
+    text-decoration: underline;
 }
 .conseille{
     font-style: italic;
+}
+.titre_de_liste
+{
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: purple;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: blue;
 }
