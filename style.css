@@ -1,0 +1,20 @@
+h1
+{
+    font-size: 40px;
+}
+.titre{
+    color:purple;
+    text-align: center;
+}
+.description
+{
+    color: blue;
+    font-family: Impact;
+    text-align: center;
+}
+.obligatoire{
+    font-size: 1.2em;
+}
+.conseille{
+    font-style: italic;
+}
